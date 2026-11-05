@@ -1,4 +1,3 @@
-
 <?php
 
 define('ROOT_PATH', dirname(__DIR__, 2));
@@ -66,7 +65,7 @@ date_default_timezone_set(
 
 // Database
 define('DB_HOST', env('DB_HOST', 'localhost'));
-define('DB_PORT', env('DB_PORT', '3306'));
+define('DB_PORT', env('DB_PORT', '3307'));
 define('DB_USER', env('DB_USER', 'root'));
 define('DB_PASS', env('DB_PASS', ''));
 define('DB_NAME', env('DB_NAME', 'db_inventory'));

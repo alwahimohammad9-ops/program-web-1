@@ -1,0 +1,12 @@
+# Environment dan konfigurasi rahasia
+.env
+.env.*
+!.env.example
+
+# Dependencies
+vendor/
+node_modules/
+
+# Temporary files
+*.log
+.DS_Store
